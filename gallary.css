@@ -1,0 +1,16 @@
+#gallery {
+	width: 520px;
+}
+#gallery ul { list-style: none; }
+#gallery ul li { display: inline; }
+#gallery ul img {
+	border: 5px solid #505D00;
+	border-width: 5px 5px 5px;
+  float: none;
+}
+#gallery ul a:hover img {
+	border: 5px solid #fff;
+	border-width: 5px 5px 5px;
+	color: #fff;
+}
+#gallery ul a:hover { color: #fff; }
