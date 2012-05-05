@@ -128,3 +128,7 @@ div.content img {
     float:right;
     border:0;
 }
+
+/* For the menu hover */
+ul.menu li ul {display: none}
+ul.menu li:hover ul {display: block}
