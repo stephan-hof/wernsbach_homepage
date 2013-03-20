@@ -132,3 +132,32 @@ div.content img {
 /* For the menu hover */
 ul.menu li ul {display: none}
 ul.menu li:hover ul {display: block}
+
+/* The box on the right for the calendar */
+div.rightcol {
+    background-color:#FCF2E6;
+    border:dashed 3px #8D9719;
+    width:200px;
+    /* Position the box absolutely in the middle.
+     * Without margin-left it would overlap now with the content box
+     */
+    position: absolute;
+    left: 50%;
+    /* This is the ca. the half of div.content.width so its aligned correctly on
+     * the right side of div.content
+     */
+    margin-left: 420px;
+    margin-top: 10px;
+
+    padding:0 8px 7px;
+}
+
+/* Some space between data calendar entries */
+div.rightcol ul li {
+    padding-top: 10px;
+}
+
+/* Align the calendar heading to middle */
+div.rightcol h3 {
+    text-align: center;
+}
